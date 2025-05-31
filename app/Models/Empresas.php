@@ -16,6 +16,11 @@ class Empresas extends Model
         "nome",
         "telefone",
         "cpf",
-        "cnpj"
+        "cnpj",
+        "cep",
+        "rua",
+        "numero",
+        "bairro",
+        "estado",
     ];
 }
