@@ -15,4 +15,8 @@ class Segmentos extends Model
     protected $fillable = [
         "tipo"
     ];
+
+    public function empresas() {
+        return $this->hasMany(Empresas::class);
+    }
 }

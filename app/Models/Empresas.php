@@ -22,5 +22,10 @@ class Empresas extends Model
         "numero",
         "bairro",
         "estado",
+        "segmento_id"
     ];
+
+    public function segmento() {
+        return $this->belongsTo(Segmentos::class);
+    }
 }
